@@ -1,16 +1,16 @@
-# DAG Bakery - WIP :wrench:
+# Thunderstruck
 
-![deploy](https://github.com/typeform/dag-bakery/actions/workflows/ci-deploy.yml/badge.svg?branch=main)
-![standard-checks](https://github.com/typeform/dag-bakery/actions/workflows/ci-standard-checks.yml/badge.svg?branch=main)
-![tests](https://github.com/typeform/dag-bakery/actions/workflows/ci-test.yml/badge.svg?branch=main)
+![deploy](https://github.com/afranzi/thunderstruck/actions/workflows/ci-deploy.yml/badge.svg?branch=main)
+![standard-checks](https://github.com/afranzi/thunderstruck/actions/workflows/ci-standard-checks.yml/badge.svg?branch=main)
+![tests](https://github.com/afranzi/thunderstruck/actions/workflows/ci-test.yml/badge.svg?branch=main)
 
-> `dag-bakery` aims to simplify our DAG development by removing all the boilerplate and duplicated code when defining 
-> multiple DAG cross teams. All we need is modularized tasks and yaml code.
+> `Thunderstruck` aims to simplify the CDP development by providing a modular approach to forward events into different 
+> destinations.
 
 ## Roadmap
 
 - [x] : Prepare skeleton & workflows.
-- [ ] : Autogenerate documentation.
-- [ ] : Develop the DAG generator with Airflow 1.10.15.
-- [ ] : Design a project logo.
-- [ ] : Support Airflow 2.x.x
+- [ ] : Event ingest server
+- [ ] : Event persistence in Postgres DB
+- [ ] : K8s Helm.
+- [ ] : Event Transformation + Forwarding with modules.
