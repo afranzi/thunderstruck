@@ -7,6 +7,21 @@
 > `Thunderstruck` aims to simplify the CDP development by providing a modular approach to forward events into different 
 > destinations.
 
+## Local execution
+
+> Start
+````shell
+ray start --head --port=6379 --dashboard-port=8265 # Start local Ray cluster.
+serve start # Start Serve on the local Ray cluster.
+python thunderstruck/dummy.py # Start our code
+````
+
+> Stop
+````shell
+serve shutdown
+ray stop
+````
+
 ## Roadmap
 
 - [x] : Prepare skeleton & workflows.
