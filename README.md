@@ -1,7 +1,5 @@
 # Thunderstruck
 
-Test
-
 ![deploy](https://github.com/afranzi/thunderstruck/actions/workflows/ci-deploy.yml/badge.svg?branch=main)
 ![standard-checks](https://github.com/afranzi/thunderstruck/actions/workflows/ci-standard-checks.yml/badge.svg?branch=main)
 ![tests](https://github.com/afranzi/thunderstruck/actions/workflows/ci-test.yml/badge.svg?branch=main)
